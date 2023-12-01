@@ -46,8 +46,6 @@ namespace BancoAPI.Controllers
             return CreatedAtAction(nameof(GetById), new { id = client.Id }, client);
         }
 
-
-
         // Actualizar cliente
         [HttpPut("updateClient/{id}")]
         public async Task<IActionResult> Update(int id, Client client)
