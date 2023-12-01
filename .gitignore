@@ -1,1 +1,5 @@
-.vs/
+# Ignorar directorio .vs
+.vs/*
+
+# Ignorar archivos temporales
+*.tmp
