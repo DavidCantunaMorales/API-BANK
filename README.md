@@ -10,6 +10,7 @@ API sobre datos de un banco.
 1. En el archivo `appsettings.json` del proyecto, modificar la cadena de conexión a la base de datos según sea necesario. La cadena es la siguiente:
    ```json
    "ConexionSqlServer": "Server=DESKTOP-9E12MUD\\SQLEXPRESS;Database=Bank;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;"
+json```
 
 ## IMPORTANTE
 - El puerto mostrado en las URLs puede cambiar.
