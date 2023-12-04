@@ -15,8 +15,8 @@ API sobre datos de un banco.
 - El puerto mostrado en las URLs puede cambiar.
 - Se recomienda realizar el LOGIN en la página "Swagger" al correr el proyecto y revisar el puerto mostrado en la información para usarlo en el resto de las peticiones.
 - Actualmente en la base de datos existen 2 usuarios autorizados:
-   1. user:james@gmail.com / password: 1234
-   2. user:carlos@gmail.com / password: 1234
+   1. user: james@gmail.com / password: 1234
+   2. user: carlos@gmail.com / password: 1234
       
 - Estos son los únicos usuarios autorizados actualmente, si se desea agregar otros se debería hacer directo en la base de datos.
 
