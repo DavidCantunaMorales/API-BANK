@@ -11,10 +11,15 @@ API sobre datos de un banco.
    ```json
    "ConexionSqlServer": "Server=DESKTOP-9E12MUD\\SQLEXPRESS;Database=Bank;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;"
 
-
 ## IMPORTANTE
 - El puerto mostrado en las URLs puede cambiar.
 - Se recomienda realizar el LOGIN en la página "Swagger" al correr el proyecto y revisar el puerto mostrado en la información para usarlo en el resto de las peticiones.
+- Actualmente en la base de datos existen 2 usuarios autorizados:
+   1. james@gmail.com 
+   2. carlos@gmail.com
+      
+- Estos son los únicos usuarios autorizados actualmente, si se desea agregar otros se debería hacer directo en la base de datos.
+
 
 ## AUTENTICACION
 
